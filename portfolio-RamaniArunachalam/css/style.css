@@ -1,0 +1,182 @@
+#bannerimg {
+  width: 100%;
+  height: 10vw;
+}
+
+img {
+  padding: 2px;
+  margin-right: 20px;
+  width: 800px;
+  height: 100px;
+}
+
+#main-nav {
+  margin-top: 2px;
+}
+
+#main-nav a {
+  color: #BF56A3;
+  
+  background: #F2C4CD;
+  
+  height: 64px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 22px;
+   border: 1px solid #D97791;
+}
+
+#main-nav a:hover {
+  background: #D97791;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#main-nav li {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#main-nav li:hover .submenu > li {
+  display: block;
+  flex-direction: column;
+  top: 0px;
+}
+
+.submenu li {
+  display: none;
+  position: absolute;
+  top: 0px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu li:hover .submenu-2 li {
+  display: block;
+}
+
+.submenu-2 li {
+  display: none;
+}
+
+.submenu-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 250px;
+}
+
+.arrow {
+  margin-left: 8px;
+  color: #eee;
+  font-size: 12px;
+}
+
+.box {
+  flex-grow: 2;
+  background: #F2C4CD;
+  color: #BF56A3;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #D97791;
+}
+
+.flexbox-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 5px solid#D97791;
+  background-color: #F2C4CD;
+  align-items: stretch;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  flex-shrink: 0;
+  align-items: stretch;
+  border: 1px solid #D97791;
+  background-color: #F2C4CD;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  flex-grow: 1;
+  align-items: stretch;
+  border: 1px solid #D97791;
+  background-color: #F2C4CD;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  flex-grow: 1;
+  align-items: stretch;
+  display: flex;
+  width: flex;
+  height: flex;
+  border: 1px solid #D97791;
+  background-color: #F2C4CD;
+}
+
+.another-container {
+  display: flex;
+  border: 5px solid #000000;
+  align-content: space-around;
+  padding: 40px;
+  margin-top: 20px;
+  font-family: Sansita Swashed;
+  font-size: 28px;
+}
+/*text and image format classes*/
+
+div {
+  display: block;
+}
+
+canvas {
+  padding-top: 20px;
+  position: relative;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, 0%);
+  padding-bottom: 20px;
+  z-index: -1;
+}
+
+#sketch-holder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#sketch-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+iframe {
+  padding-top: 20px;
+}
