@@ -5,53 +5,58 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
 	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js">
 
 	</script>
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
-	<script src="js/script.js">
+	<script src="../js/chemotaxis.js">
 
 	</script>
-
 </head>
 
 <body style="background-color:white;">
 
 
 	<center>
-  <img id="bannerimg" src="images/banner2.jpg" alt="This is the banner">
 
-    
-    <!--nestedMenu-->
+		<img id= "bannerimg" img src="../images/banner2.jpg" alt="website banner">
+       </center>
+       <!--nestedMenu-->
     <nav id="main-nav">
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="../index.html">Home</a>
             </li>
             <li>
-                <a href="pages/myProjects.html">Projects
+                <a href="myProjects.html">Projects
                     <span class="arrow">&#x25BC;</span>
                 </a>
                 <ul class="submenu">
                     <li>
-                        <a href="pages/stringThing.html">StringThing</a>
+                        <a href="stringThing.html">StringThing</a>
                     </li>
                     <li>
-                        <a href="pages/Lightning.html">Lightning</a>
+                        <a href="Lightning.html">Lightning</a>
                     </li>
 
                       <li>
-                        <a href="pages/Dice.html">Dice</a>
-                 
+                        <a href="Dice.html">Dice!</a>
+                    </li>
                     <li>
                         <a href="pages/chemotaxis.html">Chemotaxis
                             <span class="arrow">&#x25B6;</span>
                         </a>
+                         </li>
+                    <li>
+                        <a href="#">DataStructures
+                            <span class="arrow">&#x25B6;</span>
+                        </a>
                         <ul class="submenu-2">
                             <li>
-                                <a href="#">Starfield</a>
+                                <a href="#">Sets</a>
                             </li>
                             <li>
                                 <a href="#">Maps</a>
@@ -65,7 +70,7 @@
             </li>
 
             <li>
-                <a href="#">AboutMe
+                <a href="aboutme.html">AboutMe
                     <span class="arrow">&#x25BC;</span>
                 </a>
                 <ul class="submenu">
@@ -78,27 +83,27 @@
                 </ul>
             </li>
             <li>
-                <a href="pages/DeepThoughts.html">DeepThoughts</a>
+                <a href="DeepThoughts.html">DeepThoughts</a>
             </li>
         </ul>
     </nav>
   <!--/nestedMenu-->
-		
 
        <div class="flexbox-container">
 
-         <div class="flexbox-item flexbox-item-1"><h1 style="color:#BF56A3"><font face="News Cycle"><center> This year's quote:</center></font></h1>
-         <p1 style="color:#BF56A3"><font face="News Cycle"><center>"There is no good news or bad news, there's just news - Master Oogway" </center></font></p1>
+        
+        
+         <div class="flexbox-item flexbox-item-2"><h1 style="color:#BF56A3"><font face="News Cycle"><center>Welcome to my Chemotaxis page!</center></font></h1>
        <center></div>
-         <div class="flexbox-item flexbox-item-2"><h1 style="color:#BF56A3"><font face="News Cycle"><center>Welcome to my Portfolio!</center></font></h1>
-       <center></div>
-         <div class="flexbox-item flexbox-item-3"><p1 style="color:#BF56A3"><font face="News Cycle"><center>Hi! I am Ramani and this is my Computer Science PortFolio. </center></font></p1>
-       <center></div>
+         <div class="flexbox-item flexbox-item-3"><h2 style="color:#BF56A3"><font face="News Cycle"><center> Use Mouse!</center></font></p1>
+       </div>
        </div>
 
-        <div id="sketch-holder">
+        <div id="rain">
       <!-- Put canvas.parent('sketch-holder'); in function setup(), then move this code to whereever you want your sketch to show up! -->
     </div>
+    </div>
+  
     
   </body>
 </html>
